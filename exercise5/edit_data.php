@@ -1,4 +1,4 @@
-<html>
+<<html>
 <head>
 <title>My Site</title>
 <style>
@@ -141,6 +141,7 @@ if(isset($_POST['btn-cancel']))
 </br>
 <center>
 <div id="eto">
+<h1>Form</h1>
 
 <div id="header">
  <div id="content">
