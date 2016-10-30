@@ -1,4 +1,4 @@
-<html>
+<<html>
 <head>
 <title>My Site</title>
 <style>
@@ -88,8 +88,8 @@ text-align:center;
 </br>
 <div id="eto">
 <center>
-<h1>Form</h1>
-	
+<h1>Data</h1>
+<label>enetered data here!</label>
 	
 <?php
 include_once 'dbconfig.php';
@@ -132,6 +132,7 @@ function delete_id(id)
 
 <div id="body">
  <div id="content">
+ 
     <table align="center">
     <tr>
     <th colspan="9"><a href="add_data.php">add data here.</a></th>
