@@ -1,14 +1,104 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>My Site</title>
+<style>
+
+body{
+background-image: url("t.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+margin:20px 20px 20px 20px;
+padding: 20px 30px 20px 20px;
+border:dashed;
+}
+
+h1{
+font-family:impact;
+font-size:40px;
+align:center;
+}
+
+
+
+#form{
+font-family:comic sans ms;
+font-size:28px;
+text-align:center;
+}
+
+#eto{
+	width: 1000px;
+	height: 1200px;
+	background: rgba(0,0,0,0.1);
+	padding: 5px;
+	color: black;
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-family:comic sans ms;
+	font-size:25px;
+	vertical-align:baseline;
+	}
+
+#hey {
+	vertical-align:baseline;
+	padding-left:80px;
+	font-family:comic sans ms;
+	font-size:25px;
+	text-align:center;
+	}
+</style>
+<link rel="stylesheet" href="style.css" type="text/css" />
+	</head>
+	<body>
+
+	<img src = "log.png" width ="150" height "150"/>
+	
+	
+	<a href="form.php" target="_self"  >
+	<img src="form.png" width ="80" height ="40"align ="right"/>
+	</a> 
+	
+	<a href="trivia.php" target="_self" align >
+	<img src="trivia.png" width ="80" height ="40"align ="right"/>
+	</a> 
+
+	<a href="works.php" target="_self" align >
+	<img src="works.png" width ="80" height ="40"align ="right"/>
+	</a> 
+
+	<a href="sites.php" target="_self" align >
+	<img src="sites.png" width ="80" height ="40"align ="right"/>
+	</a>
+
+	<a href="about.php" target="_self" align >
+	<img src="about.png" width ="80" height ="40"align ="right"/>
+	</a>
+
+	<a href="mypage.php" target="_self" align >
+	<img src="home.png" width ="80" height ="40"align ="right"/>
+	</a> 
+
+
+
+	</br>
+</br>
+</br>
+</br>
+<div id="eto">
+<center>
+<h1>Form</h1>
+
 <?php
 include_once 'dbconfig.php';
 if(isset($_POST['btn-save']))
 {
  // variables for input data
  $name = $_POST['name'];
- $nickname = $_POST['lastname'];
+ $nickname = $_POST['nickname'];
  $email = $_POST['email'];
  $hadd = $_POST['hadd'];
- $gender = $_POST['gender']; 
+$gender = $_POST['gender']; 
  $cpnum = $_POST['cpnum'];
  $comment = $_POST['comment']; 
  // sql query for inserting data into database
@@ -17,17 +107,8 @@ if(isset($_POST['btn-save']))
  mysql_query($sql_query);
         
         // sql query for inserting data into database
- 
-}
+ }
 ?>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Form</title>
-<link rel="stylesheet" href="style.css" type="text/css" />
-</head>
-<body>
 <center>
 
 <div id="header">
@@ -137,16 +218,16 @@ if(isset($_POST['btn-save']))
     <form method="post">
     <table align="center">
     <tr>
-    <td align="center"><a href="mypage.php">back to main page</a></td>
+    <td align="center"><a href="index.php">back to display data</a></td>
     </tr>
     <tr>
     <td><input type="text" name="name" placeholder="Name" value="<?php echo $name;?>">
-			<span class="error">* <?php echo $namErr;?></span>
+			<span class="error">* <?php echo $nameErr;?></span>
 			<br><br> </td>
     </tr>
     <tr>
     <td><input type="text" name="nickname" placeholder="Nickkame" value="<?php echo $nickname;?>">
-			<span class="error">* <?php echo $nicknamErr;?></span></td>
+			<span class="error">* <?php echo $nicknameErr;?></span></td>
     </tr>
     <tr>
     <td><input type="text" name="email" placeholder="Email" value="<?php echo $email;?>">
