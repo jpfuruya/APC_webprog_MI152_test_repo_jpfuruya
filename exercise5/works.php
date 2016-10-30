@@ -52,27 +52,27 @@ table, th, td {
 
 	<img src = "log.png" width ="150" height "150"/>
 	
-	<a href="form.php" target="_self"  >
+	<a href="index.php" target="_self"  >
 	<img src="form.png" width ="80" height ="40"align ="right"/>
 	</a> 
 	
-	<a href="trivia.html" target="_self" align >
+	<a href="trivia.php" target="_self" align >
 	<img src="trivia.png" width ="80" height ="40"align ="right"/>
 	</a> 
 
-	<a href="works.html" target="_self" align >
+	<a href="works.php" target="_self" align >
 	<img src="works.png" width ="80" height ="40"align ="right"/>
 	</a> 
 
-	<a href="sites.html" target="_self" align >
+	<a href="sites.php" target="_self" align >
 	<img src="sites.png" width ="80" height ="40"align ="right"/>
 	</a>
 
-	<a href="about.html" target="_self" align >
+	<a href="about.php" target="_self" align >
 	<img src="about.png" width ="80" height ="40"align ="right"/>
 	</a>
 
-	<a href="mypage.html" target="_self" align >
+	<a href="mypage.php" target="_self" align >
 	<img src="home.png" width ="80" height ="40"align ="right"/>
 	</a> 
 
