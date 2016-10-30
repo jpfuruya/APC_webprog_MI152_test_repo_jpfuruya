@@ -1,3 +1,96 @@
+<html>
+<head>
+<title>My Site</title>
+<style>
+
+body{
+background-image: url("t.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+margin:20px 20px 20px 20px;
+padding: 20px 30px 20px 20px;
+border:dashed;
+}
+
+h1{
+font-family:impact;
+font-size:40px;
+align:center;
+}
+
+
+
+#form{
+font-family:comic sans ms;
+font-size:28px;
+text-align:center;
+}
+
+#eto{
+	width: 1100px;
+	height: 1000px;
+	background: rgba(0,0,0,0.1);
+	padding: 5px;
+	color: black;
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-family:comic sans ms;
+	font-size:25px;
+	vertical-align:baseline;
+	}
+
+#hey {
+	vertical-align:baseline;
+	padding-left:80px;
+	font-family:comic sans ms;
+	font-size:25px;
+	text-align:center;
+	}
+</style>
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+	</head>
+	<body>
+
+	<img src = "log.png" width ="150" height "150"/>
+	
+	
+	<a href="form.php" target="_self"  >
+	<img src="form.png" width ="80" height ="40"align ="right"/>
+	</a> 
+	
+	<a href="trivia.php" target="_self" align >
+	<img src="trivia.png" width ="80" height ="40"align ="right"/>
+	</a> 
+
+	<a href="works.php" target="_self" align >
+	<img src="works.png" width ="80" height ="40"align ="right"/>
+	</a> 
+
+	<a href="sites.php" target="_self" align >
+	<img src="sites.png" width ="80" height ="40"align ="right"/>
+	</a>
+
+	<a href="about.php" target="_self" align >
+	<img src="about.png" width ="80" height ="40"align ="right"/>
+	</a>
+
+	<a href="mypage.php" target="_self" align >
+	<img src="home.png" width ="80" height ="40"align ="right"/>
+	</a> 
+
+	</br>
+</br>
+</br>
+</br>
+<div id="eto">
+<center>
+<h1>Form</h1>
+	
+	
 <?php
 include_once 'dbconfig.php';
 
@@ -11,8 +104,7 @@ if(isset($_GET['delete_id']))
 //delete condition
 ?>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Form</title>
@@ -37,17 +129,12 @@ function delete_id(id)
 <body>
 <center>
 
-<div id="header">
- <div id="content">
-    <label>CRUD Operations With PHP and MySql - <a href="http://cleartuts.blogspot.com" target="_blank">By Cleartuts</a></label>
-    </div>
-</div>
 
 <div id="body">
  <div id="content">
     <table align="center">
     <tr>
-    <th colspan="5"><a href="add_data.php">add data here.</a></th>
+    <th colspan="9"><a href="add_data.php">add data here.</a></th>
     </tr>
     <th>Name</th>
     <th>Nick Name</th>
