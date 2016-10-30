@@ -7,6 +7,7 @@ body{
 background-image: url("t.jpg");
 z-index: -1;
 background-size:cover;
+background-repeat:no-repeat;
 margin:20px 20px 20px 20px;
 padding: 20px 30px 20px 20px;
 border:dashed;
@@ -71,28 +72,28 @@ text-align:left
 	<body>
 	<img src = "log.png" width ="150" height "150"/>
 
-	<a href="form.php" target="_self"  >
+	<a href="index.php" target="_self"  >
 	<img src="form.png" width ="80" height ="40"align ="right"/>
 	</a> 
 	
-	<a href="trivia.html" target="_self"  >
+	<a href="trivia.php" target="_self"  >
 	<img src="trivia.png" width ="80" height ="40"align ="right"/>
 	</a> 
 
-	<a href="works.html" target="_self" >	
+	<a href="works.php" target="_self" >	
 	<img src="works.png" width ="80" height ="40"align ="right"/>
 	</a> 
 
-	<a href="sites.html" target="_self" >
+	<a href="sites.php" target="_self" >
 	<img src="sites.png" width ="80" height ="40"align ="right"/>
 	</a>
 
 
-	<a href="about.html" target="_self" >
+	<a href="about.php" target="_self" >
 	<img src="about.png" width ="80" height ="40"align ="right"/>
 	</a>
 
-	<a href="mypage.html" target="_self">
+	<a href="mypage.php" target="_self">
 	<img src="home.png" width ="80" height ="40"align ="right"/>
 	</a> 
 	<br>
