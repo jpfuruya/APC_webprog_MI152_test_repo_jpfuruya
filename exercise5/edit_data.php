@@ -109,7 +109,7 @@ if(isset($_POST['btn-cancel']))
 	<img src = "log.png" width ="150" height "150"/>
 	
 	
-	<a href="form.php" target="_self"  >
+	<a href="index.php" target="_self"  >
 	<img src="form.png" width ="80" height ="40"align ="right"/>
 	</a> 
 	
