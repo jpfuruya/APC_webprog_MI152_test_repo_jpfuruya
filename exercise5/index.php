@@ -89,7 +89,7 @@ text-align:center;
 <div id="eto">
 <center>
 <h1>Data</h1>
-<label>enetered data here!</label>
+<label>enter data here!</label>
 	
 <?php
 include_once 'dbconfig.php';

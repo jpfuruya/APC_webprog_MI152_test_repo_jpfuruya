@@ -218,7 +218,7 @@ $gender = $_POST['gender'];
     <form method="post">
     <table align="center">
     <tr>
-    <td align="center"><a href="index.php">back to display data</a></td>
+   
     </tr>
     <tr>
     <td><input type="text" name="name" placeholder="Name" value="<?php echo $name;?>">
@@ -226,7 +226,7 @@ $gender = $_POST['gender'];
 			<br><br> </td>
     </tr>
     <tr>
-    <td><input type="text" name="nickname" placeholder="Nickkame" value="<?php echo $nickname;?>">
+    <td><input type="text" name="nickname" placeholder="Nick name" value="<?php echo $nickname;?>">
 			<span class="error">* <?php echo $nicknameErr;?></span></td>
     </tr>
     <tr>
@@ -234,7 +234,7 @@ $gender = $_POST['gender'];
 			<span class="error">* <?php echo $emailErr;?></span></td>
     </tr>
 	<tr>
-    <td><textarea name="hadd" placeholder ="hadd" rows ="2" cols="30"><?php echo $hadd;?></textarea>></span></td>
+    <td><textarea name="hadd" placeholder ="home address" rows ="2" cols="30"><?php echo $hadd;?></textarea>></span></td>
     </tr>
 
 	<tr>
@@ -253,7 +253,8 @@ $gender = $_POST['gender'];
     </tr>
 	
     <tr>
-    <td><button type="submit" name="btn-save"><strong>SAVE</strong></button></td>
+    <td><button type="submit" name="btn-save" onclick="location.href='index.php';"><strong>SAVE</strong></button>
+	<button type="button" onclick="location.href='index.php';"><strong>DISPLAY DATA</strong></button></td>
     </tr>
     </table>
     </form>
