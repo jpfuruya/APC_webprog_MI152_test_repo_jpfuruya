@@ -104,7 +104,7 @@ $gender = $_POST['gender'];
  // sql query for inserting data into database
  
         $sql_query = "INSERT INTO users(name,nickname,email,hadd,gender,cpnum,comment) VALUES('$name','$nickname','$email','$hadd','$gender','$cpnum','$comment')";
- mysql_query($sql_query);
+ mysqli_query($link, $sql_query);
         
         // sql query for inserting data into database
  }
