@@ -76,7 +76,7 @@ if(isset($_POST['btn-update']))
  // sql query for update data into database 
  
 // sql query execution function
- if(mysqli_query($sql_query))
+ if(mysqli_query($link, $sql_query))
  {
   ?>
   <script type="text/javascript">

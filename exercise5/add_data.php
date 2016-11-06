@@ -211,7 +211,8 @@ $gender = $_POST['gender'];
 	?>
 	
 	
-			<p><span class="error">* required field.</span></p>
+			<p><span class="error">* required field.
+			<u><strong>*Don't forget to save and cick the Display data below </u></strong></span></p>
 			<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 		
  <div id="content">
