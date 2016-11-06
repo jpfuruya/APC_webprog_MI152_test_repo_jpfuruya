@@ -3,50 +3,70 @@
 <title>My Site</title>
 <style>
 
-body{
-background-image: url("t.jpg");
-background-size:cover;
-background-repeat:no-repeat;
-margin:20px 20px 20px 20px;
-padding: 20px 30px 20px 20px;
-border:dashed;
-}
+				body{
+				background-image: url("t.jpg");
+				z-index: -1;
+				background-size:cover;
+				margin:20px 20px 20px 20px;
+				padding: 20px 30px 20px 20px;
+				border:dashed;
+			}
 
-h1{
-font-family:impact;
-font-size:40px;
-align:center;
-}
+			#works{
+			font-family:comic sans ms;
+			font-size:28px;
+			text-align:center;
+			}
 
-
-
-#works{
-font-family:comic sans ms;
-font-size:28px;
-text-align:center;
-}
-
-#eto{
-	width: 1000px;
-	height: 1300px;
-	background: rgba(0,0,0,0.1);
-	padding: 5px;
-	color: black;
-	margin: auto;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	font-family:comic sans ms;
-	font-size:25px;}
+			#eto{
+				width: 1000px;
+				height: 1300px;
+				background: rgba(0,0,0,0.1);
+				padding: 5px;
+				color: black;
+				margin: auto;
+				margin-top: 5px;
+				margin-bottom: 5px;
+				}
 
 
-h2{
-vertical-align:baseline;
-text-align:left;
-}
+			h2{
+				vertical-align:baseline;
+				text-align:left;
+			}
 
-
-
-
+			.name-tag {
+                border: 1px solid darkslategrey;
+                border-radius: 6px;
+                width: 355px;
+                height: 200px;
+                margin: 10px 10px 10px 100px;
+                background: darkslategray;
+                font-family: sans-serif;
+				float:left;
+				overflow:auto
+            }
+            
+            .name-tag h1 {
+                color: white;
+                text-align: center;
+                height: 25px;
+                margin: 0px 0px 0px 0px;
+                font-size: 20px;
+            }
+            .name-tag p {
+                position: relative;
+                left: 5px;
+                padding: 10px;
+                width: 295px;
+                height: 70px;
+                background: white;
+                font-family: cursive;
+                font-size: 20px;
+                text-align: center;
+                        
+            
+     
 </style>
 	</head>
 	<body>
@@ -85,34 +105,43 @@ text-align:left;
 </br>
 <div id="eto">
 <center>
-<h1>Trivia </h1>
+<h1 style = "font-family:impact;">Trivia </h1>
 
-<p id="works">Some Highlights:</p>
-		
-
-
-
-<h2>Rafael Furuya is Half Filipino and half ________</h2>
-<button type="button" onclick="document.getElementById('first').innerHTML = 'Japanese'">Click Me!</button>
-<p id="first"></p>
-
-<h2>Rafael Furuya is taking __________ in college</h2>
-<button type="button" onclick="document.getElementById('second').innerHTML = 'Information Technology'">Click Me!</button>
-<p id="second"></p>
-
-<h2>Rafael Furuya is born and raised in the ___________</h2>
-<button type="button" onclick="document.getElementById('third').innerHTML = 'Philippines'">Click Me!</button>
-<p id="third"></p>
-
-<h2>If rafael furuya has a free time he spend it in ____</h2>
-<button type="button" onclick="document.getElementById('fourth').innerHTML = 'Social Media'">Click Me!</button>
-<p id="fourth"></p>
-
-
-<h2>Rafael is currently into___________</h2>
-<button type="button" onclick="document.getElementById('fifth').innerHTML = 'Photo Editing'">Click Me!</button>
-<p id="fifth"></p>
+<p id="works">Some Highlights:
+<br>
+*click the button to see the answer.</p>
 	
+        <div class="name-tag">
+             <h1>Rafael Furuya is Half Filipino and half </h1> <br>
+			 <h1> <button type="button" onclick="document.getElementById('first').innerHTML = 'Japanese'">Click Me!</button></h1>
+            <p id="first"></p>
+        </div>
+        
+		<div class="name-tag">
+             <h1>Rafael Furuya is taking what course in college</h1>
+			 <br>
+			 <h1> <button type="button" onclick="document.getElementById('second').innerHTML = 'BS- IT'">Click Me!</button></h1>
+            <p id="second"></p>
+        </div>
+		<div class="name-tag">
+            <h1>Rafael Furuya is born and raised in the </h1><br>
+				 <h1> <button type="button" onclick="document.getElementById('third').innerHTML = 'Philippines'">Click Me!</button></h1>
+				<p id="third"></p>
+        </div>
+		<div class="name-tag">
+            <h1>Rafael Furuya spends most of his free time in</h1><br>
+            <h1> <button type="button" onclick="document.getElementById('fourth').innerHTML = 'Social Media'">Click Me!</button></h1>
+				<p id="fourth"></p>
+        </div>
+		
+		<div class="name-tag">
+            <h1>Rafael Furuya is currently into</h1><br>
+            <h1> <button type="button" onclick="document.getElementById('fifth').innerHTML = 'Photo Editing'">Click Me!</button></h1>
+				<p id="fifth"></p>
+        </div>
+        	
+
+
 	</center>
 </div>
 </body>
