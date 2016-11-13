@@ -6,6 +6,7 @@ class mypage extends CI_Controller {
      
        
         //load view and pass the data
+        $this->load->helper('url');
         $this->load->view('mypage_view');
     }
 }
