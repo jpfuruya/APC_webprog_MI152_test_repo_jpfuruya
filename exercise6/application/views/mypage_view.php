@@ -64,13 +64,12 @@ font-size:30px;
          
 
 	<ul>
-	<li> <img src="<?php echo base_url('css/uploads/log.png')?>" width ="150" height ="100" /></a></li>
-<li><a href="form_view.php" target="self">Form</a></li>
-<li><a href="trivia_view.php" target="_self">Trivia</a></li>
-<li><a href="works_view.php" target="_self">Works</a></li>
-<li><a href="sites_view.php" target="_self">Sites</a></li>
-<li><a href="about_viewphp" target="_self">About Me</a></li>
-<li><a href="mypage_view.php" target="_self"> Home </a></li>
+	<li> <img src="<?php echo base_url('css/uploads/log.png')?>" width ="150" height ="100" /></li>
+<li><a href="<?php echo base_url('pages/uploads/sites.php')?>" target="_self">Form</a></li>
+<li><a href="<?php echo base_url('pages/uploads/sites.php')?>" target="_self">Form</a></li>
+<li><a href="<?php echo base_url('pages/uploads/sites.php')?>" target="_self">Sites</a></li>
+<li><a href="<?php echo base_url('pages/uploads/sites.php')?>" target="_self">About Me</a></li>
+<li><a href="<?php echo base _url('application/views/mypage_view.php')?>" target="_self">Home</a></li>
 </ul>
 
 </div>
