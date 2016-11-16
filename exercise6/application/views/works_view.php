@@ -1,16 +1,9 @@
 <html>
 <head>
 <title>My Site</title>
+<link rel="stylesheet" type="text/css" href="<?=base_url()?>css/style.css"/>
 <style>
 
-body{
-background-image: url("t.jpg");
-background-size:cover;
-background-repeat:no-repeat;
-margin:20px 20px 20px 20px;
-padding: 20px 30px 20px 20px;
-border:dashed;
-}
 
 h1{
 font-family:impact;
@@ -43,40 +36,24 @@ table, th, td {
     border: 5px ridge black;
 	}
 
-
+ul{padding:1px;overflow:hidden;list-style-type:none;margin:0;background-color:"#151515";z-index:0;}
+	li img{padding:0px;float:left;z-index:0;}
+	li a{color:black;padding:10px;float:right;text-decoration:none;font-family: Impact;font-size:30px;z-index:0;}
+	li a:hover{background-color:white;color:black;font-size:33px;}
 
 
 </style>
 	</head>
 	<body>
-
-	<img src = "log.png" width ="150" height "150"/>
-	
-	<a href="index.php" target="_self"  >
-	<img src="form.png" width ="80" height ="40"align ="right"/>
-	</a> 
-	
-	<a href="trivia.php" target="_self" align >
-	<img src="trivia.png" width ="80" height ="40"align ="right"/>
-	</a> 
-
-	<a href="works.php" target="_self" align >
-	<img src="works.png" width ="80" height ="40"align ="right"/>
-	</a> 
-
-	<a href="sites.php" target="_self" align >
-	<img src="sites.png" width ="80" height ="40"align ="right"/>
-	</a>
-
-	<a href="about.php" target="_self" align >
-	<img src="about.png" width ="80" height ="40"align ="right"/>
-	</a>
-
-	<a href="mypage.php" target="_self" align >
-	<img src="home.png" width ="80" height ="40"align ="right"/>
-	</a> 
-
-
+<ul>
+	<li> <img src="<?php echo base_url('css/uploads/log.png')?>" width ="150" height ="100" /></li>
+<li><a href="<?php echo base_url('index.php/mypage/form')?>" target="_self">Form</a></li>
+<li><a href="<?php echo base_url('index.php/mypage/trivia')?>" target="_self">Trivia</a></li>
+<li><a href="<?php echo base_url('index.php/mypage/works')?>" target="_self">Works</a></li>
+<li><a href="<?php echo base_url('index.php/mypage/sites')?>" target="_self">Sites</a></li>
+<li><a href="<?php echo base_url('index.php/mypage/about')?>" target="_self">About Me</a></li>
+<li><a href="<?php echo base_url('index.php/mypage/index')?>" target="_self">Home</a></li>
+</ul>
 
 	</br>
 </br>
@@ -96,22 +73,22 @@ table, th, td {
 		
 		<tr>
 			<td>Unleash within</td>
-			<td> <img src = "red.jpg" height = "300" width = "250"> </td>
+			<td><img src="<?php echo base_url('css/uploads/red.jpg')?>" width ="300" height ="250" /></td>
 		</tr>
 		
 		<tr>
 			<td>Glitch</td>
-			<td> <img src = "glitch.jpg" height = "300" width = "350"> </td>
+			<td><img src="<?php echo base_url('css/uploads/glitch.jpg')?>" width ="300" height ="350" /> </td>
 		</tr>
 		
 		<tr>
 			<td>Broken</td>
-			<td> <img src = "broken.png" height = "300" width = "250"> </td>
+			<td><img src="<?php echo base_url('css/uploads/broken.png')?>" width ="300" height ="250" /></td>
 		</tr>
 		
 		<tr>
 			<td>When Light strikes</td>
-				<td> <img src = "light.jpg" height = "300" width = "250"> </td>
+				<td><img src="<?php echo base_url('css/uploads/light.jpg')?>" width ="300" height ="250" /></td>
 		</tr>
 		
 		</table>

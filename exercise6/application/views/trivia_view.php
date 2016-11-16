@@ -1,17 +1,11 @@
 <html>
 <head>
 <title>My Site</title>
+<link rel="stylesheet" type="text/css" href="<?=base_url()?>css/style.css"/>
 <style>
 
-				body{
-				background-image: url("t.jpg");
-				z-index: -1;
-				background-size:cover;
-				margin:20px 20px 20px 20px;
-				padding: 20px 30px 20px 20px;
-				border:dashed;
-			}
 
+		
 			#works{
 			font-family:comic sans ms;
 			font-size:28px;
@@ -35,67 +29,26 @@
 				text-align:left;
 			}
 
-			.name-tag {
-                border: 1px solid darkslategrey;
-                border-radius: 6px;
-                width: 355px;
-                height: 200px;
-                margin: 10px 10px 10px 100px;
-                background: darkslategray;
-                font-family: sans-serif;
-				float:left;
-				overflow:auto
-            }
-            
-            .name-tag h1 {
-                color: white;
-                text-align: center;
-                height: 25px;
-                margin: 0px 0px 0px 0px;
-                font-size: 20px;
-            }
-            .name-tag p {
-                position: relative;
-                left: 5px;
-                padding: 10px;
-                width: 295px;
-                height: 70px;
-                background: white;
-                font-family: cursive;
-                font-size: 20px;
-                text-align: center;
-                        
+     ul{padding:1px;overflow:hidden;list-style-type:none;margin:0;background-color:"#151515";z-index:0;}
+	li img{padding:0px;float:left;z-index:0;}
+	li a{color:black;padding:10px;float:right;text-decoration:none;font-family: Impact;font-size:30px;z-index:0;}
+	li a:hover{background-color:white;color:black;font-size:33px;}
+	                   
             
      
 </style>
 	</head>
 	<body>
 
-	<img src = "log.png" width ="150" height "150"/>
-	
-	<a href="index.php" target="_self"  >
-	<img src="form.png" width ="80" height ="40"align ="right"/>
-	</a> 
-	
-	<a href="trivia.php" target="_self" align >
-	<img src="trivia.png" width ="80" height ="40"align ="right"/>
-	</a> 
-	
-	<a href="works.php" target="_self" align >
-	<img src="works.png" width ="80" height ="40"align ="right"/>
-	</a> 
-
-	<a href="sites.php" target="_self" align >
-	<img src="sites.png" width ="80" height ="40"align ="right"/>
-	</a>
-
-	<a href="about.php" target="_self" align >
-	<img src="about.png" width ="80" height ="40"align ="right"/>
-	</a>
-
-	<a href="mypage.php" target="_self" align >
-	<img src="home.png" width ="80" height ="40"align ="right"/>
-	</a> 
+	<ul>
+	<li> <img src="<?php echo base_url('css/uploads/log.png')?>" width ="150" height ="100" /></li>
+<li><a href="<?php echo base_url('index.php/mypage/form')?>" target="_self">Form</a></li>
+<li><a href="<?php echo base_url('index.php/mypage/trivia')?>" target="_self">Trivia</a></li>
+<li><a href="<?php echo base_url('index.php/mypage/works')?>" target="_self">Works</a></li>
+<li><a href="<?php echo base_url('index.php/mypage/sites')?>" target="_self">Sites</a></li>
+<li><a href="<?php echo base_url('index.php/mypage/about')?>" target="_self">About Me</a></li>
+<li><a href="<?php echo base_url('index.php/mypage/index')?>" target="_self">Home</a></li>
+</ul>
 
 
 

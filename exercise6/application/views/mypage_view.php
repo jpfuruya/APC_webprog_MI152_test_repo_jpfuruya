@@ -1,21 +1,8 @@
 <head>
 <title>My Site</title>
+
+<link rel="stylesheet" type="text/css" href="<?=base_url()?>css/style.css"/>
 <style>
-
-
-
-
-
-
-body{
-background-image: url("css/uploads/bg.jpg");
-background-size:cover;
-background-repeat:no-repeat;
-margin:20px 20px 20px 20px;
-padding: 20px 30px 20px 20px;
-
-border:dashed;
-}
 
 
 h1{
@@ -58,7 +45,7 @@ font-size:30px;
 </style>
 
 </head>
-<div id ="head">
+
 
 
          
@@ -73,13 +60,13 @@ font-size:30px;
 <li><a href="<?php echo base_url('index.php/mypage/index')?>" target="_self">Home</a></li>
 </ul>
 
-</div>
+
 
 <div id="prof">
 
 <h1 align="center">This is My Story.<h1>
 
-
+<br>
 <center>
 <img src="<?php echo base_url('css/uploads/isa.png')?>" width ="280" height ="280" />
 
