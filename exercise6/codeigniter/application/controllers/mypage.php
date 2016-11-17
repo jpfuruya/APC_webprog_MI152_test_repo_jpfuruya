@@ -52,7 +52,7 @@ public function about()
        
         //load view and pass the data
         $this->load->helper('url');
-        $this->load->view('form_view');
+        $this->load->view('user_view');
     }
 
 
