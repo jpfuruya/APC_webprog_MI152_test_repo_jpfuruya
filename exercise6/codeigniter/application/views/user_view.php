@@ -3,9 +3,11 @@
  
    <head> 
       <meta charset = "utf-8"> 
-      <title>User</title> 
+      <title>Students Example</title> 
 
 <link rel="stylesheet" type="text/css" href="<?=base_url()?>css/style.css"/>
+
+
 
 <style>
 
@@ -27,8 +29,8 @@ font-size:30px;
 }
 
 #prof{
-   width: 450px;
-   height: 560px;
+   width: 1040px;
+   height: 800px;
    background: rgba(0,0,0,0.1);
    padding: 5px;
    color: black;
@@ -48,12 +50,11 @@ font-size:30px;
 
 
 
-   </head> 
 
+   </head>
 
+	
    <body> 
-
-
 
    <ul>
    <li> <img src="<?php echo base_url('css/uploads/log.png')?>" width ="150" height ="100" /></li>
@@ -70,51 +71,48 @@ font-size:30px;
 <br>
 <br>
 <br>
+      <a href = "<?php echo base_url(); ?>index.php/user/add_view">Add</a>
+		
+      <table border = "1"> 
          <?php 
-            echo form_open('User_controller/add_user');
-
-            echo form_label('User Number:'); 
-            echo form_input(array('id'=>'user_id','name'=>'user_id')); 
-            echo "<br/>"; 
-
-            echo form_label('Name:'); 
-            echo form_input(array('id'=>'name','name'=>'name')); 
-            echo "<br/>"; 
-
-            echo form_label('Nickname:'); 
-            echo form_input(array('id'=>'nickname','name'=>'nickname')); 
-            echo "<br/>";
-
-            
-            echo form_label('Email:'); 
-            echo form_input(array('id'=>'email','name'=>'email')); 
-            echo "<br/>";
-
-            
-            echo form_label('Home Address:'); 
-            echo form_input(array('id'=>'hadd','name'=>'hadd')); 
-            echo "<br/>";
-
-            
-            echo form_label('gender:'); 
-            echo form_input(array('id'=>'gender','name'=>'gender')); 
-            echo "<br/>";
-
-           
-            echo form_label('Cellphone Number:'); 
-            echo form_input(array('id'=>'cpnum','name'=>'cpnum')); 
-            echo "<br/>";
-
-            
-            echo form_label('Comment:'); 
-            echo form_input(array('id'=>'comment','name'=>'comment')); 
-            echo "<br/>";
-
-
+            $i = 1; 
+            echo "<tr>"; 
+            echo "<td>User#</td>"; 
+            echo "<td>user_id</td>"; 
+            echo "<td>name</td>"; 
+			echo "<td>nickname</td>";
+			echo "<td>email</td>";
+			echo "<td>hadd</td>";
+			echo "<td>gender</td>";
+			echo "<td>cpnum</td>";
+			echo "<td>comment</td>";
 			
-            echo form_submit(array('id'=>'submit','value'=>'Add')); 
-            echo form_close(); 
-         ?> 
-         </div>
+			
+			
+			
+            echo "<td>Edit</td>"; 
+            echo "<td>Delete</td>"; 
+            echo "<tr>"; 
+				
+            foreach($records as $r) { 
+               echo "<tr>"; 
+               echo "<td>".$i++."</td>"; 
+               echo "<td>".$r->user_id."</td>"; 
+               echo "<td>".$r->name."</td>"; 
+			      echo "<td>".$r->nickname."</td>"; 
+			      echo "<td>".$r->email."</td>"; 
+			      echo "<td>".$r->hadd."</td>"; 
+			      echo "<td>".$r->gender."</td>"; 
+			      echo "<td>".$r->cpnum."</td>"; 
+			      echo "<td>".$r->comment."</td>"; 
+               echo "<td><a href = '".base_url()."index.php/user/edit/"
+                  .$r->user_id."'>Edit</a></td>"; 
+               echo "<td><a href = '".base_url()."index.php/user/delete/"
+                  .$r->user_id."'>Delete</a></td>"; 
+               echo "<tr>"; 
+            } 
+         ?>
+      </table> 
+		
    </body>
 </html>

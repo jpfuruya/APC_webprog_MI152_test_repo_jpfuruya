@@ -42,7 +42,7 @@
 
 	<ul>
 	<li> <img src="<?php echo base_url('css/uploads/log.png')?>" width ="150" height ="100" /></li>
-<li><a href="<?php echo base_url('index.php/mypage/form')?>" target="_self">Form</a></li>
+<li><a href = "<?php echo base_url(); ?>index.php/user/add_view">Form</a></li>
 <li><a href="<?php echo base_url('index.php/mypage/trivia')?>" target="_self">Trivia</a></li>
 <li><a href="<?php echo base_url('index.php/mypage/works')?>" target="_self">Works</a></li>
 <li><a href="<?php echo base_url('index.php/mypage/sites')?>" target="_self">Sites</a></li>

@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class mypage extends CI_Controller {
+class Mypage extends CI_Controller {
 
     public function index()
     {
@@ -46,19 +46,5 @@ public function about()
         $this->load->helper('url');
         $this->load->view('trivia_view');
     }
-     public function form()
-    {
-     
-       
-        //load view and pass the data
-        $this->load->helper('url');
-        $this->load->view('user_view');
-    }
-
-
-
-
-
-
-
+    
 }
