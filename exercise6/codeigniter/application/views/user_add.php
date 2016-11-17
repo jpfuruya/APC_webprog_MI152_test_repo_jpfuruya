@@ -28,7 +28,7 @@ font-size:30px;
 
 #prof{
    width: 900px;
-   height: 960px;
+   height: 1100px;
    background: rgba(0,0,0,0.1);
    padding: 5px;
    color: black;
@@ -73,6 +73,10 @@ font-size:30px;
 
 <center>
 <table> 
+
+
+<h1>Form</h1>
+<label id ="header">Please fill out the form.</label>
          <?php 
 
 
