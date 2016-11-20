@@ -3,7 +3,7 @@
  
    <head> 
       <meta charset = "utf-8"> 
-      <title>Students Example</title> 
+      <title>User</title> 
 
 <link rel="stylesheet" type="text/css" href="<?=base_url()?>css/style.css"/>
 
