@@ -214,7 +214,7 @@ echo "</td>";
 echo "<tr>"; 
 echo "<td>";  
 			
-            echo form_submit(array('id'=>'submit','value'=>'CLICK TO ADD DATA')); 
+            echo form_submit(array('id'=>'submit','value'=>'CLICK TO SUBMIT DATA')); 
             echo form_close(); 
 
 
