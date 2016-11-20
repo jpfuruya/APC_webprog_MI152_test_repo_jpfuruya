@@ -29,7 +29,7 @@ font-size:30px;
 }
 
 #prof{
-   width: 1040px;
+   width: 1200px;
    height: 800px;
    background: rgba(0,0,0,0.1);
    padding: 5px;
