@@ -117,7 +117,7 @@ ul
 
 
 <h1>Form</h1>
-<label id ="header">Please fill out the form.</label>
+<label>Please fill out the form.</label>
          <?php 
 
 
