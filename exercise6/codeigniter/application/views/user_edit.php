@@ -128,7 +128,7 @@ font-size:30px;
 			echo "<tr>"; 
 			echo "<td>"; 
 			
-            echo form_label('user_id'); 
+            echo form_label('User Number'); 
             echo form_input(array('id'=>'user_id',
                'name'=>'user_id','value'=>$records[0]->user_id)); 
             echo "<br/>"; 
@@ -140,7 +140,7 @@ echo "</td>";
 			
 			echo "<tr>"; 
 			echo "<td>"; 	
-            echo form_label('nickname'); 
+            echo form_label('Nickname'); 
             echo form_input(array('id'=>'nickname','name'=>'nickname',
                'value'=>$records[0]->name)); 
             echo "<br/>"; 
@@ -150,7 +150,7 @@ echo "</td>";
 			
 			echo "<tr>"; 
 			echo "<td>"; 	
-            echo form_label('email'); 
+            echo form_label('Email'); 
             echo form_input(array('id'=>'email','name'=>'email',
                'value'=>$records[0]->name)); 
             echo "<br/>"; 
@@ -161,7 +161,7 @@ echo "</td>";
 			
 			echo "<tr>"; 
 			echo "<td>"; 	            
-            echo form_label('hadd'); 
+            echo form_label('Address'); 
             echo form_input(array('id'=>'hadd','name'=>'hadd',
                'value'=>$records[0]->name)); 
             echo "<br/>"; 
@@ -171,7 +171,7 @@ echo "</td>";
 			
 			echo "<tr>"; 
 			echo "<td>"; 	 
-            echo form_label('gender'); 
+            echo form_label('Gender'); 
             echo form_input(array('id'=>'gender','name'=>'gender',
                'value'=>$records[0]->name)); 
             echo "<br/>"; 
@@ -181,7 +181,7 @@ echo "</td>";
 			
 			echo "<tr>"; 
 			echo "<td>"; 	
-            echo form_label('cpnum'); 
+            echo form_label('Celphone Number'); 
             echo form_input(array('id'=>'cpnum','name'=>'cpnum',
                'value'=>$records[0]->name)); 
             echo "<br/>"; 
@@ -191,7 +191,7 @@ echo "</td>";
 			
 			echo "<tr>"; 
 			echo "<td>"; 	      
-            echo form_label('comment'); 
+            echo form_label('Comment'); 
             echo form_input(array('id'=>'comment','name'=>'comment',
                'value'=>$records[0]->name)); 
             echo "<br/>"; 
