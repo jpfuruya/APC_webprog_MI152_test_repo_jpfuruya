@@ -29,8 +29,8 @@ font-size:30px;
 }
 
 #prof{
-   width: 1200px;
-   height: 800px;
+   width: 1250px;
+   height: 1300px;
    background: rgba(0,0,0,0.1);
    padding: 5px;
    color: black;
@@ -41,11 +41,50 @@ font-size:30px;
 }
 
 
-   ul{padding:1px;overflow:hidden;list-style-type:none;margin:0;background-color:"#151515";z-index:0;}
-   li img{padding:0px;float:left;z-index:0;}
-   li a{color:black;padding:10px;float:right;text-decoration:none;font-family: Impact;font-size:30px;z-index:0;}
-   li a:hover{background-color:white;color:black;font-size:33px;}
+   ul{
+	padding:1px;
+	overflow:hidden;
+	list-style-type:none;
+	margin:0;
+	background-color:"#151515";
+	z-index:0;
+	}
+	
+	
+   li img
+   {
+	   padding:0px;
+	   float:left;
+	   z-index:0;
+	   }
+	   
+	   
+   li a{
+	color:black;
+   padding:10px;
+   float:right;
+   text-decoration:none;
+   font-family: Impact;
+   font-size:30px;
+   z-index:0;
+   }
    
+   
+   li a:hover
+   {
+	   background-color:white;
+	   color:black;
+	   font-size:33px;}
+   
+   
+   #s a{
+	   
+	   font-size:45px;
+	   font-family: Impact;
+	   color:blue;
+   }
+   
+
 </style>
 
 
@@ -65,14 +104,19 @@ font-size:30px;
 <li><a href="<?php echo base_url('index.php/mypage/about')?>" target="_self">About Me</a></li>
 <li><a href="<?php echo base_url('index.php/mypage/index')?>" target="_self">Home</a></li>
 </ul>
-
+<br>
+<br>
 
 <div id="prof">
 <br>
 <br>
 <br>
-      <a href = "<?php echo base_url(); ?>index.php/user/add_view">Add</a>
-		
+<div id ="s">
+      <a href = "<?php echo base_url(); ?>index.php/user/add_view">Add Data</a>
+</div>	
+
+<br>
+<center>	
       <table border = "1"> 
          <?php 
             $i = 1; 
@@ -113,6 +157,6 @@ font-size:30px;
             } 
          ?>
       </table> 
-		
+		</center>
    </body>
 </html>
