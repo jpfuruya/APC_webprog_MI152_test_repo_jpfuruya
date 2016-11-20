@@ -58,10 +58,40 @@ text-align:left
 }
 
 
-ul{padding:1px;overflow:hidden;list-style-type:none;margin:0;background-color:"#151515";z-index:0;}
-	li img{padding:0px;float:left;z-index:0;}
-	li a{color:black;padding:10px;float:right;text-decoration:none;font-family: Impact;font-size:30px;z-index:0;}
-	li a:hover{background-color:white;color:black;font-size:33px;}
+ ul{
+	padding:1px;
+	overflow:hidden;
+	list-style-type:none;
+	margin:0;
+	background-color:"#151515";
+	z-index:0;
+	}
+	
+	
+   li img
+   {
+	   padding:0px;
+	   float:left;
+	   z-index:0;
+	   }
+	   
+	   
+   li a{
+	color:black;
+   padding:10px;
+   float:right;
+   text-decoration:none;
+   font-family: Impact;
+   font-size:30px;
+   z-index:0;
+   }
+   
+   
+   li a:hover
+   {
+	   background-color:white;
+	   color:black;
+	   font-size:33px;}
 
 
 <link rel="stylesheet" href="<?php echo base_url('css/style.css');?>">
