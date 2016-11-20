@@ -27,8 +27,8 @@ font-size:30px;
 }
 
 #prof{
-   width: 450px;
-   height: 560px;
+   width: 1200px;
+   height: 1100px;
    background: rgba(0,0,0,0.1);
    padding: 5px;
    color: black;
@@ -65,7 +65,13 @@ font-size:30px;
 <br>
 <br>
 <br>
+
+
+
+<center>
 <table>
+<h1>Form</h1>
+<label id ="header">Please  edit the form.</label>
       <form method = "" action = "">
 		
          <?php 
@@ -157,7 +163,7 @@ echo "</td>";
 			?> 
 			
 			</table>
-			
+</center>			
       </form> 
       </div>
    </body>
