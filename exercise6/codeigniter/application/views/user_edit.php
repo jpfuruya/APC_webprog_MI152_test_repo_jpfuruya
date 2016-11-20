@@ -79,7 +79,7 @@ font-size:30px;
    
    #s a{
 	   
-	   font-size:45px;
+	   font-size:30px;
 	   font-family: Impact;
 	   color:blue;
    }
@@ -112,7 +112,12 @@ font-size:30px;
 <center>
 <table>
 <h1>Form</h1>
-<label>Please  edit the form.</label>
+
+<br>
+<br>  
+  
+  
+<label>Don't forget to click submit then View Data.</label>
       <form method = "" action = "">
 		
          <?php 
@@ -196,7 +201,7 @@ echo "</td>";
 	
 	echo "<tr>"; 
 			echo "<td>";
-            echo form_submit(array('id'=>'submit','value'=>'Edit')); 
+            echo form_submit(array('id'=>'submit','value'=>'Submit')); 
             echo form_close();
 echo "</tr>"; 
 echo "</td>"; 
