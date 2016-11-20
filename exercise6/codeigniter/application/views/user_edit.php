@@ -71,7 +71,7 @@ font-size:30px;
 <center>
 <table>
 <h1>Form</h1>
-<label id ="header">Please  edit the form.</label>
+<label>Please  edit the form.</label>
       <form method = "" action = "">
 		
          <?php 
