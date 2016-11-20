@@ -68,7 +68,12 @@ font-size:30px;
 	   background-color:white;
 	   color:black;
 	   font-size:33px;}
-   
+
+
+#s{
+	color:blue;
+	   font-size:20px;
+}	   
    
    
 	
@@ -91,6 +96,16 @@ font-size:30px;
 <li><a href="<?php echo base_url('index.php/mypage/about')?>" target="_self">About Me</a></li>
 <li><a href="<?php echo base_url('index.php/mypage/index')?>" target="_self">Home</a></li>
 </ul>
+
+
+
+
+<div id = "s">
+<center>
+<a href = "<?php echo base_url(); ?>index.php/user/add_view">Click to Log-In</a>
+</center>
+</div>
+
 
 
 
