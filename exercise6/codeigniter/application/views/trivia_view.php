@@ -77,16 +77,18 @@
 </style>
 	</head>
 	<body>
-
-	<ul>
+<ul>
 	<li> <img src="<?php echo base_url('css/uploads/log.png')?>" width ="150" height ="100" /></li>
-<li><a href = "<?php echo base_url(); ?>index.php/user/add_view">Form</a></li>
-<li><a href="<?php echo base_url('index.php/mypage/trivia')?>" target="_self">Trivia</a></li>
-<li><a href="<?php echo base_url('index.php/mypage/works')?>" target="_self">Works</a></li>
-<li><a href="<?php echo base_url('index.php/mypage/sites')?>" target="_self">Sites</a></li>
-<li><a href="<?php echo base_url('index.php/mypage/about')?>" target="_self">About Me</a></li>
-<li><a href="<?php echo base_url('index.php/mypage/index')?>" target="_self">Home</a></li>
+<li><a href="<?php echo site_url('users'); ?>">Form</a></a></li>
+<li><a href="<?php echo site_url('users/create'); ?>">Add User</a></li>
+<li><a href="<?php echo base_url('index.php/user_controller/trivia')?>" target="_self">Trivia</a></li>
+<li><a href="<?php echo base_url('index.php/user_controller/works')?>" target="_self">Works</a></li>
+<li><a href="<?php echo base_url('index.php/user_controller/sites')?>" target="_self">Sites</a></li>
+<li><a href="<?php echo base_url('index.php/user_controller/about')?>" target="_self">About Me</a></li>
+<li><a href="<?php echo base_url('index.php/user_controller/mypage')?>" target="_self">Home</a></li>
 </ul>
+<a href="<?php echo site_url('users/create'); ?>">Add User</a>
+
 
 
 
@@ -115,7 +117,7 @@
             <p id="second"></p>
         </div>
 		<div class="name-tag">
-            <h1>Rafael Furuya is born and raised in the </h1><br>
+            <h1>Rafael Furuya was born and raised in the </h1><br>
 				 <h1> <button type="button" onclick="document.getElementById('third').innerHTML = 'Philippines'">Click Me!</button></h1>
 				<p id="third"></p>
         </div>
