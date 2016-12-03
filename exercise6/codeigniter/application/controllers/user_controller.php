@@ -122,7 +122,7 @@ class User_Controller extends CI_Controller {
      
        
         //load view and pass the data
-        $this->load->helper('url');
+        
         $this->load->view('mypage_view');
     }
 
@@ -131,7 +131,7 @@ public function about()
      
        
         //load view and pass the data
-        $this->load->helper('url');
+       
         $this->load->view('about_view');
     }
 
@@ -141,7 +141,7 @@ public function about()
      
        
         //load view and pass the data
-        $this->load->helper('url');
+        
         $this->load->view('sites_view');
     }
      public function works()
@@ -149,7 +149,7 @@ public function about()
      
        
         //load view and pass the data
-        $this->load->helper('url');
+        
         $this->load->view('works_view');
     }
 
@@ -158,7 +158,7 @@ public function about()
      
        
         //load view and pass the data
-        $this->load->helper('url');
+        
         $this->load->view('trivia_view');
     }
     
