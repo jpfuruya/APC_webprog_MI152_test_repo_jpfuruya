@@ -48,9 +48,9 @@ class Users extends \yii\db\ActiveRecord
             'name' => 'Name',
             'nickname' => 'Nickname',
             'email' => 'Email',
-            'hadd' => 'Hadd',
+            'hadd' => 'Home Address',
             'gender' => 'Gender',
-            'cpnum' => 'Cpnum',
+            'cpnum' => 'Cellphone number',
             'comment' => 'Comment',
         ];
     }
