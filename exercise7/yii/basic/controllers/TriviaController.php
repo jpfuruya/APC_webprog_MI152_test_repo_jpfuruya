@@ -8,6 +8,7 @@ use app\models\TriviaSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\db\Expression;
 
 /**
  * TriviaController implements the CRUD actions for Trivia model.
