@@ -37,7 +37,7 @@ class TriviaController extends Controller
 shuffle($trivia);
         return $this->render('index', ['trivia'=>$trivia,'pagination'=>$pagination,
         	]);
-shuffle($trivia);
+
         
     }
 
