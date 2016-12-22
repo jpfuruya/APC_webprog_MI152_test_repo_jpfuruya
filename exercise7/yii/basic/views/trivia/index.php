@@ -15,8 +15,6 @@ body{
 }</style>
 </head>
 <body>
-<br>
-<br>
 <h1>Trivia</h1>
 <ul>
 <?php foreach ($trivia as $trivias): ?>
@@ -27,6 +25,8 @@ body{
     </li>
     <br>
 <?php endforeach; ?>
+
+<img src = "log.png" width="180" height="75" >
 </ul>
 </body>
 
