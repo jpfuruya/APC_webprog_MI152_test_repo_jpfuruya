@@ -1,6 +1,10 @@
 <?php
 use yii\helpers\Html;
 use yii\widgets\LinkPager;
+
+$this->title = 'Trivia';
+$this->params['breadcrumbs'][] = $this->title;
+
 ?>
 <html>
 <head>
