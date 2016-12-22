@@ -8,7 +8,8 @@ $this->title = 'My Yii Application';
 
     <div class="jumbotron">
 
-
+    <img src = "log.png" width="280" height="115" >
+    <br>
     <img src = "isa.png" width="280" height="280" >
         <h1>Hello!</h1>
 
