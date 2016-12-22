@@ -63,6 +63,8 @@ font-size:25px;
 	<a href="https://www.facebook.com/jpfuruya" target="_parent">facebook.com/jpfuruya</a> </br>
 	<a href="https://www.tumblr.com/blog/huckleveryfinn" target="_top">huckleveryfinn.tumblr.com/</a> </br>
 	<a href="http://9gag.com/" target="_top">http://9gag.com//</a> </br>
+	<img src = "log.png" width="200" height="90" >
+    <br>
 	</center>
 	</strong>
     </p>
