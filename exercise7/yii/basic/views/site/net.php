@@ -49,9 +49,11 @@ font-size:25px;
 
 <div class="site-about">
     <h1><?= Html::encode($this->title) ?></h1>
-
+    
 <center>
-	<img src = "icon.png" width="220" height="200" >
+<img src = "log.png" width="190" height="80" >
+<h1> Me on the internet </h1>
+	<img src = "icon.png" width="220" height="150" >
 	<p id ="some"> Some of his favorite Sites </p>
 	</center>
 
@@ -63,7 +65,7 @@ font-size:25px;
 	<a href="https://www.facebook.com/jpfuruya" target="_parent">facebook.com/jpfuruya</a> </br>
 	<a href="https://www.tumblr.com/blog/huckleveryfinn" target="_top">huckleveryfinn.tumblr.com/</a> </br>
 	<a href="http://9gag.com/" target="_top">http://9gag.com//</a> </br>
-	<img src = "log.png" width="200" height="90" >
+	
     <br>
 	</center>
 	</strong>
