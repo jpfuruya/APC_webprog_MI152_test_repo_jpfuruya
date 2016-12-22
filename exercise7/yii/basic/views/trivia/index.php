@@ -25,5 +25,4 @@ body{
 <?php endforeach; ?>
 </ul>
 </body>
-<?= LinkPager::widget(['pagination' => $pagination]) ?>
 
